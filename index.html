@@ -6,28 +6,85 @@
   <title>Little Lani Gift Atelier</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="min-h-screen bg-[#F7F1EB] text-gray-800">
-  <header class="px-6 py-10 text-center">
-    <h1 class="text-4xl font-serif">Little Lani Gift Atelier</h1>
-    <p class="mt-3 text-lg text-gray-600">Curated gifts made with love</p>
-    <p class="mt-2 text-sm">For birthdays • baby showers • thank you gifts • just because</p>
-  </header>
+<body class="bg-[#F7F1EB] text-gray-800">
 
-  <section class="max-w-6xl mx-auto px-6 py-8">
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <div class="bg-white rounded-3xl shadow-sm p-5 border border-[#EADFD5]">
-        <div class="h-44 rounded-2xl bg-[#EFE4DA] mb-4 flex items-center justify-center text-sm text-gray-500">Product Photo</div>
-        <span class="text-xs bg-[#F3E8DD] px-3 py-1 rounded-full">Best Seller</span>
-        <h3 class="mt-3 text-lg font-medium">Baby Shower Gift Box</h3>
-        <p class="text-gray-600 mt-1">KSh 2,500</p>
+  <!-- HERO SECTION -->
+  <section class="text-center px-6 py-16 bg-[#EFE4DA]">
+    <h1 class="text-4xl md:text-5xl font-serif">Little Lani Gift Atelier</h1>
+    <p class="mt-4 text-lg text-gray-700">Curated gifts made with love</p>
+    <p class="mt-2 text-sm">For birthdays • baby showers • thank you gifts • just because</p>
+    <a href="https://wa.me/254718064310" class="inline-block mt-6 bg-[#D9C2AD] px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90">
+      Order via WhatsApp
+    </a>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="max-w-6xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-serif text-center mb-8">Shop by Category</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="rounded-3xl overflow-hidden shadow-sm">
+        <img src="https://images.unsplash.com/photo-1607083206968-13611e3d76db" class="w-full h-56 object-cover" />
+        <p class="text-center py-3">Birthday Gifts</p>
       </div>
-      <div class="bg-white rounded-3xl shadow-sm p-5 border border-[#EADFD5]">
-        <div class="h-44 rounded-2xl bg-[#EFE4DA] mb-4 flex items-center justify-center text-sm text-gray-500">Product Photo</div>
-        <span class="text-xs bg-[#F3E8DD] px-3 py-1 rounded-full">Popular</span>
-        <h3 class="mt-3 text-lg font-medium">Birthday Surprise Box</h3>
-        <p class="text-gray-600 mt-1">KSh 3,000</p>
+      <div class="rounded-3xl overflow-hidden shadow-sm">
+        <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6" class="w-full h-56 object-cover" />
+        <p class="text-center py-3">Baby Shower Gifts</p>
+      </div>
+      <div class="rounded-3xl overflow-hidden shadow-sm">
+        <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1" class="w-full h-56 object-cover" />
+        <p class="text-center py-3">Luxury Hampers</p>
       </div>
     </div>
   </section>
+
+  <!-- PRODUCTS -->
+  <section class="max-w-6xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-serif text-center mb-8">Featured Gifts</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- PRODUCT 1 -->
+      <div class="bg-white rounded-3xl shadow-sm p-4">
+        <img src="https://images.unsplash.com/photo-1607083206968-13611e3d76db" class="rounded-2xl h-48 w-full object-cover" />
+        <h3 class="mt-4 text-lg font-medium">Baby Shower Gift Box</h3>
+        <p class="text-gray-600">KSh 2,500</p>
+        <a href="https://wa.me/254718064310?text=Hi%20I%20want%20the%20Baby%20Shower%20Gift%20Box" class="block mt-3 text-center bg-[#D9C2AD] py-2 rounded-xl text-sm">
+          Order on WhatsApp
+        </a>
+      </div>
+
+      <!-- PRODUCT 2 -->
+      <div class="bg-white rounded-3xl shadow-sm p-4">
+        <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1" class="rounded-2xl h-48 w-full object-cover" />
+        <h3 class="mt-4 text-lg font-medium">Birthday Surprise Box</h3>
+        <p class="text-gray-600">KSh 3,000</p>
+        <a href="https://wa.me/254718064310?text=Hi%20I%20want%20the%20Birthday%20Surprise%20Box" class="block mt-3 text-center bg-[#D9C2AD] py-2 rounded-xl text-sm">
+          Order on WhatsApp
+        </a>
+      </div>
+
+      <!-- PRODUCT 3 -->
+      <div class="bg-white rounded-3xl shadow-sm p-4">
+        <img src="https://images.unsplash.com/photo-1585386959984-a41552231658" class="rounded-2xl h-48 w-full object-cover" />
+        <h3 class="mt-4 text-lg font-medium">Thank You Gift Set</h3>
+        <p class="text-gray-600">KSh 1,800</p>
+        <a href="https://wa.me/254718064310?text=Hi%20I%20want%20the%20Thank%20You%20Gift%20Set" class="block mt-3 text-center bg-[#D9C2AD] py-2 rounded-xl text-sm">
+          Order on WhatsApp
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="text-center py-12 bg-[#EFE4DA]">
+    <h2 class="text-2xl font-serif">Follow Our Journey</h2>
+    <p class="mt-3">@little_lani_gifts</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 text-sm text-gray-500">
+    © Little Lani Gift Atelier • Made with love
+  </footer>
+
 </body>
 </html>
